@@ -30,7 +30,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#programs">Programs</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#facilities">Facilities</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#covid">COVID Plan</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#covid">COVID-19</a></li>
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a></li> -->
                 </ul>
             </div>
@@ -70,7 +70,6 @@
                             <div class="subheading mb-3">Location TBD</div>
                             <p>More information to be released soon. Please check back shortly.</p>
 
-                            <a href="/assets/doc/blah.txt" download>link</a>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Schedule TBD</span></div>
                     </div>
@@ -90,15 +89,61 @@
                         </div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div> -->
                     </div>
+                    <form method="post" action="/php/form_to_email.php">
+                        <!-- Text input -->
+                        <div class="form-outline mb-4">
+                            <input type="text" id="form6Example1" name="player_name" class="form-control" />
+                            <label class="form-label" for="form6Example1">Full name of player</label>
+                        </div>
+
+                        <!-- Text input -->
+                        <div class="form-outline mb-4">
+                            <input type="number" id="form6Example2" name="birth_year" class="form-control" />
+                            <label class="form-label" for="form6Example2">Birth year of player</label>
+                        </div>
+                    
+                        <!-- Text input -->
+                        <div class="form-outline mb-4">
+                            <input type="text" id="form6Example3" name="parent_name" class="form-control" />
+                            <label class="form-label" for="form6Example3">Full name of parent/guardian</label>
+                        </div>
+                    
+                        <!-- Text input -->
+                        <div class="form-outline mb-4">
+                            <input type="text" id="form6Example4" name="address" class="form-control" />
+                            <label class="form-label" for="form6Example4">Address</label>
+                        </div>
+                    
+                        <!-- Number input -->
+                        <div class="form-outline mb-4">
+                          <input type="text" id="form6Example6" name="phone" class="form-control" />
+                          <label class="form-label" for="form6Example6">Phone number</label>
+                        </div>
+                    
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                          <input type="email" id="form6Example5" name="email" class="form-control" />
+                          <label class="form-label" for="form6Example5">Email address</label>
+                        </div>
+                    
+                        <!-- Message input -->
+                        <div class="form-outline mb-4">
+                          <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                          <label class="form-label" for="form6Example7">Additional information</label>
+                        </div>
+                    
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Submit information</button>
+                    </form>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- COVID Plan-->
             <section class="resume-section" id="covid">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">COVID Plan</h2>
-                    <div class="subheading mb-3">RRC COVID Action Plan</div>
-                    <p>More information to be released soon. Please check back shortly.</p>
+                    <h2 class="mb-5">COVID-19</h2>
+                    <!-- <div class="subheading mb-3">COVID Operational Plan</div> -->
+                    <p>The Renforth Racquet Club is committed to ensuring that all of its youth racquet sport activities are provided in a manner that is appropriate, safe and in full compliance with the Government of New Brunswick's COVID-19 response guidelines. Please refer to our <b><a href="/assets/doc/blah.txt" download>COVID-19 Operational Plan</a></b> for more details.</p>
                     <!-- <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
